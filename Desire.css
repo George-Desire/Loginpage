@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  .main{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  h1{
+    color: purple;
+    margin: 150px 0 30px 0;
+  }
+  input{
+    margin: 0 0 30px 30px;
+    border: none;
+    border-bottom: 1px solid purple;
+    width: 250px;
+    /* color: purple; */
+  }
+  label{
+    color: purple;
+  }
+  a{
+    text-decoration: none;
+    color: purple;
+  }
+  button{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(148, 75, 148);
+  }
+  button:hover{
+    background-color: purple;
+  }
